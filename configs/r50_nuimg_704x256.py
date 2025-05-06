@@ -1,3 +1,25 @@
+# mAP: 0.2829
+# mATE: 0.7837
+# mASE: 0.2845
+# mAOE: 0.7279
+# mAVE: 0.8114
+# mAAE: 0.2473
+# NDS: 0.3560
+# Eval time: 88.8s
+
+# Per-class results:
+# Object Class            AP      ATE     ASE     AOE     AVE     AAE
+# car                     0.508   0.551   0.158   0.114   0.833   0.226
+# truck                   0.209   0.823   0.232   0.174   0.682   0.242
+# bus                     0.243   0.802   0.234   0.171   1.728   0.355
+# trailer                 0.027   1.232   0.239   0.705   0.449   0.075
+# construction_vehicle    0.033   1.141   0.537   1.387   0.110   0.409
+# pedestrian              0.345   0.740   0.303   1.413   0.914   0.426
+# motorcycle              0.241   0.769   0.263   1.023   1.366   0.214
+# bicycle                 0.220   0.731   0.269   1.425   0.409   0.032
+# traffic_cone            0.502   0.511   0.320   nan     nan     nan
+# barrier                 0.501   0.536   0.290   0.139   nan     nan
+
 dataset_type = 'CustomNuScenesDataset'
 dataset_root = 'data/nuscenes/'
 
