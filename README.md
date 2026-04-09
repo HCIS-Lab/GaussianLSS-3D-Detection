@@ -72,6 +72,9 @@ data/nuscenes
 
 These `*.pkl` files can also be generated with our script: `gen_sweep_info.py`.
 
+## Chekcpoint
+You can get the trained model here: [google drive](https://drive.google.com/file/d/1ZjzF5tGxNwSobTVexOnVc4r9svGPbErt/view?usp=sharing)
+
 ## Training
 
 Download pretrained [weights](https://download.openmmlab.com/mmdetection3d/v0.1.0_models/nuimages_semseg/cascade_mask_rcnn_r50_fpn_coco-20e_20e_nuim/cascade_mask_rcnn_r50_fpn_coco-20e_20e_nuim_20201009_124951-40963960.pth) and put it in directory `pretrain/`:
